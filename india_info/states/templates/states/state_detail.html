@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>State Detail</title>
+</head>
+<body>
+    <h1>{{ object.name }}</h1>
+    <p>Population: {{ object.population }}</p>
+    <p>Language: {{ object.language }}</p>
+    <p>Capital: {{ object.capital }}</p>
+    <a href="{% url 'state_list' %}">Back to list</a>
+</body>
+</html>
